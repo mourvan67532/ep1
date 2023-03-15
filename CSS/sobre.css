@@ -1,0 +1,41 @@
+h2 {
+    border: 2px solid black;
+    position: relative;
+    width: 25%;
+    background-color: lightblue;
+ }
+ .img_sobre {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 20%;
+ }
+ .nomes {
+    text-align: right;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 20%;
+ }
+ body {
+    background-color: #DCDCDC;
+    text-align: center;
+}
+header {
+    background-color: gray;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: lightblue;
+    padding: 7px 7px;
+    font-size: large;
+    font-style: italic;
+}
